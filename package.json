@@ -1,0 +1,25 @@
+{
+  "name": "dot-local",
+  "version": "0.0.1",
+  "description": "UI configuring bonjour advertisement",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": ":",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piroz/dot-local.git"
+  },
+  "keywords": [
+    "electron",
+    "bonjour"
+  ],
+  "author": "piroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piroz/dot-local/issues"
+  },
+  "homepage": "https://github.com/piroz/dot-local#readme"
+}
