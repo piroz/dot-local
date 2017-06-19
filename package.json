@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run build",
-    "build": ":",
+    "build": "node packager/darwin.js",
     "start": "electron ."
   },
   "repository": {
@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/piroz/dot-local/issues"
   },
-  "homepage": "https://github.com/piroz/dot-local#readme"
+  "homepage": "https://github.com/piroz/dot-local#readme",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "electron": "^1.6.11",
+    "jquery": "^2.2.4",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.1"
+  }
 }
