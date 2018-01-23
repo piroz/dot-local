@@ -25,7 +25,7 @@
   "dependencies": {
     "bonjour": "^3.5.0",
     "electron": "^1.6.11",
-    "jquery": "^2.2.4",
+    "jquery": "^3.0.0",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
