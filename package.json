@@ -24,11 +24,11 @@
   "homepage": "https://github.com/piroz/dot-local#readme",
   "dependencies": {
     "bonjour": "^3.5.0",
-    "electron": "^1.6.11",
+    "electron": "^4.0.2",
     "jquery": "^3.0.0",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "electron-packager": "^8.7.1"
+    "electron-packager": "^12.1.0"
   }
 }
